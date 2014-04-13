@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C97C314818FA6593003C9644 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97C314718FA6593003C9644 /* Foundation.framework */; };
+		C97C314A18FA6593003C9644 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97C314918FA6593003C9644 /* CoreGraphics.framework */; };
+		C97C314C18FA6593003C9644 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97C314B18FA6593003C9644 /* UIKit.framework */; };
+		C97C315218FA6593003C9644 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C97C315018FA6593003C9644 /* InfoPlist.strings */; };
+		C97C315418FA6593003C9644 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C97C315318FA6593003C9644 /* main.m */; };
+		C97C315818FA6593003C9644 /* NUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C97C315718FA6593003C9644 /* NUAppDelegate.m */; };
+		C97C315B18FA6593003C9644 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C97C315918FA6593003C9644 /* Main.storyboard */; };
+		C97C315E18FA6593003C9644 /* NUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C97C315D18FA6593003C9644 /* NUViewController.m */; };
+		C97C316018FA6593003C9644 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C97C315F18FA6593003C9644 /* Images.xcassets */; };
+		C97C316718FA6593003C9644 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97C316618FA6593003C9644 /* XCTest.framework */; };
+		C97C316818FA6593003C9644 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97C314718FA6593003C9644 /* Foundation.framework */; };
+		C97C316918FA6593003C9644 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97C314B18FA6593003C9644 /* UIKit.framework */; };
+		C97C317118FA6593003C9644 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C97C316F18FA6593003C9644 /* InfoPlist.strings */; };
+		C97C317318FA6593003C9644 /* NUWebOfficeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C97C317218FA6593003C9644 /* NUWebOfficeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C97C316A18FA6593003C9644 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C97C313C18FA6593003C9644 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C97C314318FA6593003C9644;
+			remoteInfo = NUWebOffice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C97C314418FA6593003C9644 /* NUWebOffice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NUWebOffice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97C314718FA6593003C9644 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C97C314918FA6593003C9644 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C97C314B18FA6593003C9644 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C97C314F18FA6593003C9644 /* NUWebOffice-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NUWebOffice-Info.plist"; sourceTree = "<group>"; };
+		C97C315118FA6593003C9644 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C97C315318FA6593003C9644 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C97C315518FA6593003C9644 /* NUWebOffice-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NUWebOffice-Prefix.pch"; sourceTree = "<group>"; };
+		C97C315618FA6593003C9644 /* NUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NUAppDelegate.h; sourceTree = "<group>"; };
+		C97C315718FA6593003C9644 /* NUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NUAppDelegate.m; sourceTree = "<group>"; };
+		C97C315A18FA6593003C9644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C97C315C18FA6593003C9644 /* NUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NUViewController.h; sourceTree = "<group>"; };
+		C97C315D18FA6593003C9644 /* NUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NUViewController.m; sourceTree = "<group>"; };
+		C97C315F18FA6593003C9644 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C97C316518FA6593003C9644 /* NUWebOfficeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NUWebOfficeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97C316618FA6593003C9644 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C97C316E18FA6593003C9644 /* NUWebOfficeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NUWebOfficeTests-Info.plist"; sourceTree = "<group>"; };
+		C97C317018FA6593003C9644 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C97C317218FA6593003C9644 /* NUWebOfficeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NUWebOfficeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C97C314118FA6593003C9644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97C314A18FA6593003C9644 /* CoreGraphics.framework in Frameworks */,
+				C97C314C18FA6593003C9644 /* UIKit.framework in Frameworks */,
+				C97C314818FA6593003C9644 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97C316218FA6593003C9644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97C316718FA6593003C9644 /* XCTest.framework in Frameworks */,
+				C97C316918FA6593003C9644 /* UIKit.framework in Frameworks */,
+				C97C316818FA6593003C9644 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C97C313B18FA6593003C9644 = {
+			isa = PBXGroup;
+			children = (
+				C97C314D18FA6593003C9644 /* NUWebOffice */,
+				C97C316C18FA6593003C9644 /* NUWebOfficeTests */,
+				C97C314618FA6593003C9644 /* Frameworks */,
+				C97C314518FA6593003C9644 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C97C314518FA6593003C9644 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C97C314418FA6593003C9644 /* NUWebOffice.app */,
+				C97C316518FA6593003C9644 /* NUWebOfficeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C97C314618FA6593003C9644 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C97C314718FA6593003C9644 /* Foundation.framework */,
+				C97C314918FA6593003C9644 /* CoreGraphics.framework */,
+				C97C314B18FA6593003C9644 /* UIKit.framework */,
+				C97C316618FA6593003C9644 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C97C314D18FA6593003C9644 /* NUWebOffice */ = {
+			isa = PBXGroup;
+			children = (
+				C97C315618FA6593003C9644 /* NUAppDelegate.h */,
+				C97C315718FA6593003C9644 /* NUAppDelegate.m */,
+				C97C315918FA6593003C9644 /* Main.storyboard */,
+				C97C315C18FA6593003C9644 /* NUViewController.h */,
+				C97C315D18FA6593003C9644 /* NUViewController.m */,
+				C97C315F18FA6593003C9644 /* Images.xcassets */,
+				C97C314E18FA6593003C9644 /* Supporting Files */,
+			);
+			path = NUWebOffice;
+			sourceTree = "<group>";
+		};
+		C97C314E18FA6593003C9644 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C97C314F18FA6593003C9644 /* NUWebOffice-Info.plist */,
+				C97C315018FA6593003C9644 /* InfoPlist.strings */,
+				C97C315318FA6593003C9644 /* main.m */,
+				C97C315518FA6593003C9644 /* NUWebOffice-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C97C316C18FA6593003C9644 /* NUWebOfficeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C97C317218FA6593003C9644 /* NUWebOfficeTests.m */,
+				C97C316D18FA6593003C9644 /* Supporting Files */,
+			);
+			path = NUWebOfficeTests;
+			sourceTree = "<group>";
+		};
+		C97C316D18FA6593003C9644 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C97C316E18FA6593003C9644 /* NUWebOfficeTests-Info.plist */,
+				C97C316F18FA6593003C9644 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C97C314318FA6593003C9644 /* NUWebOffice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C97C317618FA6593003C9644 /* Build configuration list for PBXNativeTarget "NUWebOffice" */;
+			buildPhases = (
+				C97C314018FA6593003C9644 /* Sources */,
+				C97C314118FA6593003C9644 /* Frameworks */,
+				C97C314218FA6593003C9644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NUWebOffice;
+			productName = NUWebOffice;
+			productReference = C97C314418FA6593003C9644 /* NUWebOffice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C97C316418FA6593003C9644 /* NUWebOfficeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C97C317918FA6593003C9644 /* Build configuration list for PBXNativeTarget "NUWebOfficeTests" */;
+			buildPhases = (
+				C97C316118FA6593003C9644 /* Sources */,
+				C97C316218FA6593003C9644 /* Frameworks */,
+				C97C316318FA6593003C9644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C97C316B18FA6593003C9644 /* PBXTargetDependency */,
+			);
+			name = NUWebOfficeTests;
+			productName = NUWebOfficeTests;
+			productReference = C97C316518FA6593003C9644 /* NUWebOfficeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C97C313C18FA6593003C9644 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NU;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = XLDZ;
+				TargetAttributes = {
+					C97C316418FA6593003C9644 = {
+						TestTargetID = C97C314318FA6593003C9644;
+					};
+				};
+			};
+			buildConfigurationList = C97C313F18FA6593003C9644 /* Build configuration list for PBXProject "NUWebOffice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C97C313B18FA6593003C9644;
+			productRefGroup = C97C314518FA6593003C9644 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C97C314318FA6593003C9644 /* NUWebOffice */,
+				C97C316418FA6593003C9644 /* NUWebOfficeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C97C314218FA6593003C9644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97C316018FA6593003C9644 /* Images.xcassets in Resources */,
+				C97C315218FA6593003C9644 /* InfoPlist.strings in Resources */,
+				C97C315B18FA6593003C9644 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97C316318FA6593003C9644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97C317118FA6593003C9644 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C97C314018FA6593003C9644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97C315E18FA6593003C9644 /* NUViewController.m in Sources */,
+				C97C315418FA6593003C9644 /* main.m in Sources */,
+				C97C315818FA6593003C9644 /* NUAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97C316118FA6593003C9644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97C317318FA6593003C9644 /* NUWebOfficeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C97C316B18FA6593003C9644 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C97C314318FA6593003C9644 /* NUWebOffice */;
+			targetProxy = C97C316A18FA6593003C9644 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C97C315018FA6593003C9644 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C97C315118FA6593003C9644 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C97C315918FA6593003C9644 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C97C315A18FA6593003C9644 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C97C316F18FA6593003C9644 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C97C317018FA6593003C9644 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C97C317418FA6593003C9644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C97C317518FA6593003C9644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C97C317718FA6593003C9644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NUWebOffice/NUWebOffice-Prefix.pch";
+				INFOPLIST_FILE = "NUWebOffice/NUWebOffice-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C97C317818FA6593003C9644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NUWebOffice/NUWebOffice-Prefix.pch";
+				INFOPLIST_FILE = "NUWebOffice/NUWebOffice-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C97C317A18FA6593003C9644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NUWebOffice.app/NUWebOffice";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NUWebOffice/NUWebOffice-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NUWebOfficeTests/NUWebOfficeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C97C317B18FA6593003C9644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NUWebOffice.app/NUWebOffice";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NUWebOffice/NUWebOffice-Prefix.pch";
+				INFOPLIST_FILE = "NUWebOfficeTests/NUWebOfficeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C97C313F18FA6593003C9644 /* Build configuration list for PBXProject "NUWebOffice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C97C317418FA6593003C9644 /* Debug */,
+				C97C317518FA6593003C9644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C97C317618FA6593003C9644 /* Build configuration list for PBXNativeTarget "NUWebOffice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C97C317718FA6593003C9644 /* Debug */,
+				C97C317818FA6593003C9644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C97C317918FA6593003C9644 /* Build configuration list for PBXNativeTarget "NUWebOfficeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C97C317A18FA6593003C9644 /* Debug */,
+				C97C317B18FA6593003C9644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C97C313C18FA6593003C9644 /* Project object */;
+}
