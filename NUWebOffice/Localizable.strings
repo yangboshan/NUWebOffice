@@ -1,0 +1,17 @@
+/* 
+  File.strings
+  NUWebOffice
+
+  Created by JY on 14-4-16.
+  Copyright (c) 2014年 XLDZ. All rights reserved.
+*/
+
+//APP Config
+
+APP_PREFIX = "NU";
+RESPONSE = "Response";
+
+TIP = "提示";
+OK = "OK";
+NETWORK_ERROR = "当前没有可用的网络连接";
+GPRS_CONNECTED = "手机网络已切换为GPRS OR 3G";

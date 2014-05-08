@@ -1,13 +1,13 @@
 //
-//  NUViewController.h
+//  NUButton.h
 //  NUWebOffice
 //
-//  Created by JY on 14-4-13.
+//  Created by JY on 14-4-22.
 //  Copyright (c) 2014年 XLDZ. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface NUViewController : UIViewController
+@interface NUButton : UIButton
 
 @end

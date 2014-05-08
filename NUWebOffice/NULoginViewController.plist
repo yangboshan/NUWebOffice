@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Title</key>
+	<string>登录</string>
+	<key>Segue</key>
+	<string>LoginToMain</string>
+	<key>ValidateError</key>
+	<string>用户信息错误</string>
+	<key>ValidateUser</key>
+	<string>验证用户信息</string>
+</dict>
+</plist>
