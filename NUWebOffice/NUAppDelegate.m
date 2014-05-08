@@ -26,7 +26,7 @@
     
     NSURLCache *sharedCache = [[NSURLCache alloc] initWithMemoryCapacity:2*1024*1024
                                                             diskCapacity:100*1024*1024
-                                                                diskPath:@"__cache_folder__"];
+                                                                diskPath:@"nucache"];
     [NSURLCache setSharedURLCache:sharedCache];
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reachabilityChanged:) name:kReachabilityChangedNotification object:nil];
